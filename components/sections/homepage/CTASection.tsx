@@ -67,7 +67,7 @@ export default function CTASection() {
             text-black
           "
         >
-          LET’S CUT <br /> THE BS.
+          LET’S CUT <br /> THE NOISE.
         </h2>
 
         {/* BUTTON */}

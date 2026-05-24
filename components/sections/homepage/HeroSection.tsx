@@ -47,15 +47,15 @@ export default function HeroSection() {
           md:flex-row
           justify-between
           px-4
-          md:px-5
-          py-10
+         
+          pt-35
         "
         style={{
           background: `
             linear-gradient(
               180deg,
               #0e71bd 0%,
-              #0059df 18%,
+              #0748aa 18%,
               #0047b3 38%,
               #001a4d 58%,
               #000814 78%,
@@ -65,17 +65,17 @@ export default function HeroSection() {
         }}
       >
         {/* LEFT SIDE */}
-        <div className="flex-1 text-white flex flex-col justify-center space-y-6 ">
+        <div className="flex-1 text-white flex flex-col justify-center space-y-6">
 
-          <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold uppercase leading-tight">
+          <h1 className="text-3xl md:text-5xl lg:text-7xl font-bold uppercase leading-tight">
             MOVING BRANDS FORWARD
           </h1>
 
           <p className="text-sm md:text-base text-white/60 max-w-md leading-relaxed">
-            every brand carries a story shaped into a clear path that users can understand and follow without confusion or friction.
+            Every brand carries a story shaped into a clear path that users can understand and follow without confusion or friction.
           </p>
 
-          <div className="flex gap-3 flex-wrap pt-2">
+          <div className="flex gap-3 flex-wrap pt-5">
             <button className="px-5 py-2 text-sm rounded-md bg-white text-black">
               Explore Work
             </button>
@@ -86,7 +86,7 @@ export default function HeroSection() {
           </div>
 
           {/* Scroll */}
-          <div className="pt-12 text-xs tracking-widest text-white/40">
+          <div className="pt-24 text-xs tracking-widest text-white/40">
             scroll to explore ↓
           </div>
         </div>
@@ -97,3 +97,6 @@ export default function HeroSection() {
     </section>
   );
 }
+
+
+

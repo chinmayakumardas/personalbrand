@@ -8,9 +8,9 @@
 
 
 import CTASection from "@/components/sections/homepage/CTASection";
+import FeaturedWorkSection from "@/components/sections/homepage/FeaturedWorkSection";
 import HeroSection from "@/components/sections/homepage/HeroSection";
 import ServicesSection from "@/components/sections/homepage/ServicesSection";
-import WhatIDoSection from "@/components/sections/homepage/WhatIDoSection";
 
 
 export default function Home() {
@@ -20,7 +20,8 @@ export default function Home() {
 
 
       <HeroSection />
-      <WhatIDoSection />
+      <FeaturedWorkSection/>
+ 
       <ServicesSection />
       <CTASection />
 
