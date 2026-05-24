@@ -11,7 +11,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 
 import SmoothScrollProvider from "@/components/providers/SmoothScrollProvider";
-
+import PageTransition from "@/components/providers/PageTransition";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -44,10 +44,14 @@ export default function RootLayout({
 
   <SmoothScrollProvider>
 
-    <main className="relative w-full min-h-screen">
+    {/* <main className="relative w-full min-h-screen">
       {children}
-    </main>
-
+    </main> */}
+<main className="relative w-full min-h-screen">
+  <PageTransition>
+    {children}
+  </PageTransition>
+</main>
     <Footer />
 
   </SmoothScrollProvider>

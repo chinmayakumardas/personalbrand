@@ -53,7 +53,7 @@
 
 :root {
   --background: #F5F0E9;
-  /* --background: #eeeeee; */
+ 
   --foreground: oklch(0.145 0 0);
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
@@ -105,3 +105,24 @@
 
 
 
+
+
+
+
+
+
+
+
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-scroll {
+  animation: scroll 18s linear infinite;
+}
