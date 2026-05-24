@@ -264,7 +264,7 @@ export default function Footer() {
             </div>
 
             <p className="text-[10px] uppercase tracking-[0.14em] text-white/25">
-              Crafted with Next.js + GSAP
+              All rights reserved + India
             </p>
           </div>
         </div>
