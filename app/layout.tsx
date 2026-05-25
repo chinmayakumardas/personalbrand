@@ -44,9 +44,7 @@ export default function RootLayout({
 
   <SmoothScrollProvider>
 
-    {/* <main className="relative w-full min-h-screen">
-      {children}
-    </main> */}
+ 
 <main className="relative w-full min-h-screen">
   <PageTransition>
     {children}
@@ -62,3 +60,7 @@ export default function RootLayout({
     </html>
   );
 }
+
+
+
+

@@ -8,6 +8,7 @@ import { useEffect, useRef } from "react";
 
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import { ArrowUpRight } from "lucide-react";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -93,10 +94,24 @@ export default function CTASection() {
             transition
           "
         >
-          GET A CUSTOM QUOTE →
+          GET A CUSTOM QUOTE 
+           <ArrowUpRight
+                  className="
+                    h-4
+                    w-4
+                    transition-all
+                    duration-300
+                    group-hover:-translate-y-1
+                    group-hover:translate-x-1
+                  "
+                />
         </button>
 
       </div>
     </section>
   );
 }
+
+
+
+

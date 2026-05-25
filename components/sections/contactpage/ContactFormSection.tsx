@@ -252,14 +252,24 @@ export default function ContactFormSection() {
             grid min-h-[calc(100vh-2rem)]
             grid-cols-1
             gap-8
-            px-3
-            pt-30
+            
+            
             pb-4
+
+              px-5
+            py-7
+            sm:px-7
+            sm:py-8
+            md:px-9
+            md:py-10
+            lg:px-12
+            lg:py-12
+
             lg:grid-cols-2
           "
         >
           {/* LEFT */}
-          <div className="flex flex-col justify-start">
+          <div className="flex flex-col justify-start   mt-20">
             <h1
               className="
                 text-[38px]
@@ -303,7 +313,7 @@ export default function ContactFormSection() {
           </div>
 
           {/* RIGHT */}
-          <div className="flex items-start justify-start">
+          <div className="flex items-start justify-start   mt-20">
             <div
               data-lenis-prevent
               className="
