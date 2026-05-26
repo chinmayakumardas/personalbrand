@@ -11,6 +11,7 @@
 
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 
 import {
   ArrowUpRight,
@@ -57,7 +58,7 @@ const socials = [
 
 export default function Footer() {
   const footerRef = useRef<HTMLDivElement | null>(null);
-
+ const router = useRouter();
   const [time, setTime] = useState("");
 
   /* ================= TIME ================= */
@@ -290,9 +291,10 @@ export default function Footer() {
 
               {/* BUTTON */}
 
-              <Link
-                href="/contact"
+              <button
+                onClick={() => router.push("/work")}
                 className="
+                cursor-pointer
                   footer-reveal
                   group
                   mt-7
@@ -311,7 +313,7 @@ export default function Footer() {
                     
                   transition-all
                   duration-300
-                  hover:scale-[1.02]
+               
                 "
               >
                 START A PROJECT
@@ -326,7 +328,8 @@ export default function Footer() {
                     group-hover:translate-x-1
                   "
                 />
-              </Link>
+              </button>
+            
             </div>
 
             {/* RIGHT */}

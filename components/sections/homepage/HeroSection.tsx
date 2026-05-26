@@ -75,13 +75,32 @@ export default function HeroSection() {
               <button
                 onClick={() => router.push("/contact")}
                 className="
-                  group bg-white text-black
-                  px-6 py-3 rounded-xl
-                  text-[12px] tracking-widest uppercase
-                  flex items-center gap-2
-                  hover:opacity-90 transition
-                  cursor-pointer
+                   cta-fade
+            cursor-pointer
+
+            bg-white
+            text-black
+
+            px-6 py-3
+            rounded-xl
+
+            text-[12px]
+            tracking-widest
+            uppercase
+
+            flex items-center gap-2
+
+            hover:opacity-90
+            transition
                 "
+                // className="
+                //   group bg-white text-black
+                //   px-6 py-3 rounded-xl
+                //   text-[12px] tracking-widest uppercase
+                //   flex items-center gap-2
+                //   hover:opacity-90 transition
+                //   cursor-pointer
+                // "
               >
                 GET A CUSTOM QUOTE
                 <ArrowUpRight className="h-4 w-4" />
@@ -90,13 +109,32 @@ export default function HeroSection() {
               <button
                 onClick={() => router.push("/work")}
                 className="
-                  h-11 rounded-xl border border-white/10
-                  bg-white/5 px-6 text-[12px]
-                  uppercase tracking-widest text-white
-                  backdrop-blur-md transition
-                  hover:bg-white/10
-                  cursor-pointer
+                  cta-fade
+         
+
+            text-black
+            bg-white
+
+            px-6 py-3
+            rounded-xl
+
+            text-[12px]
+            tracking-widest
+            uppercase
+
+            flex items-center gap-2
+
+            hover:opacity-90
+            transition
                 "
+                // className="
+                //   h-11 rounded-xl border border-white/10
+                //   bg-white/5 px-6 text-[12px]
+                //   uppercase tracking-widest text-white
+                //   backdrop-blur-md transition
+                //   hover:bg-white/10
+                //   cursor-pointer
+                // "
               >
                 Explore Work
               </button>

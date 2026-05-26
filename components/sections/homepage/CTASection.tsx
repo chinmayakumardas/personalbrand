@@ -97,6 +97,7 @@ export default function CTASection() {
           GET A CUSTOM QUOTE 
            <ArrowUpRight
                   className="
+                  cursor-pointer
                     h-4
                     w-4
                     transition-all
